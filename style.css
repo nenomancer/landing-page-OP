@@ -1,7 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;900&display=swap");
 
 :root {
-
   --dark-blue: hsl(215, 28%, 17%);
   --light-blue: hsl(217, 91%, 59%);
 
@@ -9,6 +8,9 @@
   --light-grey: hsl(220, 13%, 91%);
 
   --padding-sides: 20vw;
+
+  --height: 480px;
+  --width: 800px;
 }
 
 *,
@@ -24,7 +26,7 @@ body {
 }
 
 .container {
-  max-width: 900px;
+  max-width: var(--width);
 }
 
 header {
@@ -126,6 +128,7 @@ header {
   display: flex;
   justify-content: space-between;
   width: 50vw;
+  max-width: var(--width);
   margin-bottom: 100px;
 }
 
@@ -143,4 +146,31 @@ header {
   border: 3px solid var(--light-blue);
   border-radius: 15px;
   margin-bottom: 8px;
+  flex-shrink: 1;
+}
+
+/* --------------- QUOTE SECTION -----------------  */
+
+.quote-section {
+  background-color: var(--light-grey);
+  height: 480px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.quote {
+  width: 800px;
+}
+
+.quote-content {
+  font-size: 36px;
+  font-style: italic;
+  font-weight: lighter;
+}
+
+.quote-author {
+  font-size: 24px;
+  font-weight: bold;
+  text-align: right;
 }
