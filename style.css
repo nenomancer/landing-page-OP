@@ -1,8 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;900&display=swap");
 
 :root {
+
   --dark-blue: hsl(215, 28%, 17%);
   --light-blue: hsl(217, 91%, 59%);
+
   --white: hsl(210, 20%, 98%);
   --light-grey: hsl(220, 13%, 91%);
 
@@ -109,10 +111,13 @@ header {
   justify-content: center;
   padding: 0 var(--padding-sides);
   border: 1px solid black;
+  color: var(--dark-blue);
 }
 
 .info-title {
   padding: 50px 0;
+  font-size: 36px;
+  /* font-weight: 800; */
 }
 
 .info-block-container {
