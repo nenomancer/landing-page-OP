@@ -6,7 +6,7 @@
   --white: hsl(210, 20%, 98%);
   --light-grey: hsl(220, 13%, 91%);
 
-  --padding-sides: 200px;
+  --padding-sides: 20vw;
 }
 
 *,
@@ -19,7 +19,10 @@
 
 body {
   font-family: "Roboto", sans-serif;
-  color: var(--light-grey);
+}
+
+.container {
+  max-width: 900px;
 }
 
 header {
@@ -27,7 +30,8 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 14px var(--padding-sides);
+  padding: 20px var(--padding-sides);
+  color: var(--light-grey);
 }
 
 .header-logo {
@@ -56,6 +60,8 @@ header {
   height: 480px;
   align-items: center;
   padding: 0 var(--padding-sides);
+  color: var(--light-grey);
+
   gap: 40px;
 }
 
@@ -66,6 +72,7 @@ header {
 .main-text {
   font-size: 48px;
   font-weight: 700;
+  color: var(--white);
 }
 
 .secondary-text {
@@ -92,3 +99,7 @@ header {
   justify-content: center;
   align-items: center;
 }
+
+/* -------------- RANDOM INFO SECTION ----------------  */
+
+
