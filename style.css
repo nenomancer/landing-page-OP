@@ -96,7 +96,7 @@ header {
 }
 
 .placeholder-img {
-  background-color: grey;
+  background-color: #6b727b;
   width: 100%;
   height: 250px;
   display: flex;
@@ -128,7 +128,7 @@ header {
   justify-content: space-between;
   width: 50vw;
   max-width: var(--width);
-  margin-bottom: 100px;
+  margin-bottom: 120px;
 }
 
 .info-block {
@@ -152,14 +152,14 @@ header {
 
 .quote-section {
   background-color: var(--light-grey);
-  height: 480px;
   display: flex;
   justify-content: center;
   align-items: center;
+  padding: 120px;
 }
 
 .quote {
-  width: 800px;
+  width: var(--width);
 }
 
 .quote-content {
