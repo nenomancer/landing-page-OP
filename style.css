@@ -85,7 +85,7 @@ header {
   margin-bottom: 12px;
 }
 
-.btn-sign-up {
+.btn {
   padding: 6px 24px;
   border-radius: 5px;
   outline: none;
@@ -174,19 +174,29 @@ header {
   text-align: right;
 }
 
+/* ------------------ CALL TO ACTION -------------------  */
 
- /* ------------------ CALL TO ACTION -------------------  */
-
-
- .cta-section {
+.cta-section {
   display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.cta-container {
   background-color: var(--light-blue);
- }
- .cta-container {
-  width: var(--width);
- }
+  padding: 45px 80px;
+  width: 60vw;
+  display: flex;
+  border-radius: 7px;
+  align-items: center;
+  justify-content: space-between;
+  color: var(--light-grey);
+  margin: 100px;
+}
 
- .cta-main-text {
+.cta-main-text {
   color: var(--white);
+}
 
- }
+.cta-btn {
+  border: 2px solid var(--white);
+}
