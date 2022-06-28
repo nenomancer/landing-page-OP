@@ -112,7 +112,6 @@ header {
   align-items: center;
   justify-content: center;
   padding: 0 var(--padding-sides);
-  border: 1px solid black;
   color: var(--dark-blue);
 }
 
@@ -174,3 +173,20 @@ header {
   font-weight: bold;
   text-align: right;
 }
+
+
+ /* ------------------ CALL TO ACTION -------------------  */
+
+
+ .cta-section {
+  display: flex;
+  background-color: var(--light-blue);
+ }
+ .cta-container {
+  width: var(--width);
+ }
+
+ .cta-main-text {
+  color: var(--white);
+
+ }
